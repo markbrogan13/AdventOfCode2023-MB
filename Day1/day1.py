@@ -58,7 +58,7 @@ def read_data_2():
             # numbers = numbers.translate({ord(i): None for i in 'abcdefghijklmnopqrstuvwxyz'})
             # print(f'After replace: {numbers}\n')
             total_val = strip_helper(numbers, total_val)
-            print(f'Running Val: {total_val + 580}')
+            print(f'Running Val: {total_val}')
 
 def strip_helper(numbers, total_val):
     numbers = numbers.translate({ord(i): None for i in 'abcdefghijklmnopqrstuvwxyz'})
